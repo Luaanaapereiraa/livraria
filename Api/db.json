@@ -1,0 +1,13 @@
+{
+    "books": [{
+        "id": 1,
+        "title": "O pequeno Prícipe",
+        "autor": "Antoine de Saint-Exupéry",
+        "price": "R$ 20,90"
+    }, {
+        "id": 2,
+        "title": "A arte da guerra",
+        "autor": "Sun Tzu",
+        "price": "R$ 14,00"
+    }]
+}
