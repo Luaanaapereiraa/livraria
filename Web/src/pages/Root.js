@@ -4,15 +4,18 @@ import {
   Switch,
   Route,
 } from 'react-router-dom';
-import pageBookEdit from '../pages/pageBookEdit';
-import pageBookList from '../pages/pageBookList';
+import PageBookEdit from '../pages/PageBookEdit';
+import PageBookList from '../pages/PageBookList';
 
 const Root = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/edit" component={pageBookEdit} />
-        <Route path="/" component={pageBookList} />
+        <Route path="/pageBookEdit" component={PageBookEdit} />
+        <Route path="/edit/:id" component={PageBookEdit} />
+        <Route path="/pageBookList" component={PageBookList} />
+        <Route path="/" component={PageBookList} />
+        <Route path="/delete/:id" component={PageBookEdit}/>
       </Switch>
     </Router>
   );

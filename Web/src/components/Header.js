@@ -7,7 +7,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={brand}
             width="30"
@@ -18,8 +18,8 @@ export default class Header extends React.Component {
           />
         </Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#pageBookList">Lista de livros</Nav.Link>
-          <Nav.Link href="#pageBookEdit">Editar livros</Nav.Link>
+          <Nav.Link href="/PageBookList">Lista de livros</Nav.Link>
+          <Nav.Link href="/PageBookEdit">Editar livros</Nav.Link>
         </Nav>
 
       </Navbar>

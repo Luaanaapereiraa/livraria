@@ -1,13 +1,38 @@
 {
-    "books": [{
-        "id": 1,
-        "title": "O pequeno Prícipe",
-        "autor": "Antoine de Saint-Exupéry",
-        "price": "R$ 20,90"
-    }, {
-        "id": 2,
-        "title": "A arte da guerra",
-        "autor": "Sun Tzu",
-        "price": "R$ 14,00"
-    }]
+  "books": [
+    {
+      "id": 1,
+      "imageUrl": "https://www.edipro.com.br/wp-content/uploads/2020/09/Pequeno-principe-O-grande-9788567097107-600x863.jpg",
+      "title": "O pequeno Prícipe",
+      "autor": "Antoine de Saint-Exupéry",
+      "price": " 20,90"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://www.record.com.br/wp-content/uploads/2020/08/14764-600x922.jpeg",
+      "title": "A arte da guerra",
+      "autor": "Sun Tzu",
+      "price": " 14,00"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81jwi6eR5YL.jpg",
+      "title": "Alice no País das Maravilhas",
+      "autor": "Lewis Carroll",
+      "price": " 25,00"
+    },
+    {
+      "title": "teste",
+      "autor": "teste",
+      "price": "01",
+      "id": 4
+    },
+    {
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/51aG2%2BoutOL._SX342_SY445_QL70_ML2_.jpg",
+      "title": "Uma breve história do tempo",
+      "autor": "Stephen Hawking",
+      "price": "teste",
+      "id": 5
+    }
+  ]
 }
